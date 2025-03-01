@@ -12,11 +12,15 @@ html, body {
     background-color: black;
 }
 
+body {
+    background: black url(../imagens/fundo2.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main {
     position: relative;
     height: 100vh;
-    background-color: blue;
-
 }
 
 section#celular {
@@ -26,12 +30,18 @@ section#celular {
     transform: translate(-50%, -50%);
     
 
-    height: 500px;
-    width: 500px;
-    background: aqua url(../imagens/iphone.png) no-repeat;
+    height: 628px;
+    width: 320px;
+    background: url(../imagens/foto-celular.png) no-repeat;
     
 }
 
-section#rede-social {
-    
+
+iframe#tela {
+    position: relative;
+    top: 71px;
+    left: 14px;
+    width: 293px;
+    height: 477px;
+    border-radius: 2px;
 }
